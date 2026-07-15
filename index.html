@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jackson Ean Holmes — Freelance Photographer</title>
+  <meta name="description" content="Freelance photography by Jackson Ean Holmes — portraits, events, and editorial work." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Archivo:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a class="nav__mark" href="#top">JEH</a>
+    <nav class="nav__links" id="nav-links"></nav>
+    <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+
+    <section class="hero" id="hero">
+      <div class="hero__media">
+        <img id="hero-image" alt="" />
+        <div class="hero__scrim"></div>
+      </div>
+      <div class="hero__content">
+        <p class="eyebrow" id="hero-eyebrow"></p>
+        <h1 class="hero__name" id="hero-name"></h1>
+        <p class="hero__tagline" id="hero-tagline"></p>
+        <a class="cta" id="hero-cta" href="#gallery">
+          <span id="hero-cta-label"></span>
+          <span class="cta__arrow" aria-hidden="true">&#8595;</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about__image">
+        <img id="about-image" alt="" />
+      </div>
+      <div class="about__content reveal">
+        <p class="section-label">01 — About</p>
+        <h2 id="about-heading"></h2>
+        <div id="about-body"></div>
+        <dl class="highlights" id="about-highlights"></dl>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="gallery__head reveal">
+        <p class="section-label">02 — Contact Sheet</p>
+        <h2>Selected frames</h2>
+      </div>
+      <div class="gallery__grid" id="gallery-grid"></div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="testimonials__head reveal">
+        <p class="section-label">03 — Words</p>
+        <h2>From the people in front and behind the frame</h2>
+      </div>
+      <div class="testimonials__row" id="testimonials-row"></div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact__inner reveal">
+        <p class="section-label">04 — Contact</p>
+        <h2 id="contact-heading"></h2>
+        <p id="contact-body"></p>
+        <a class="contact__email" id="contact-email" href="#"></a>
+        <div class="contact__social" id="contact-social"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p id="footer-text"></p>
+    <a href="#top" class="footer__top">Back to top &#8593;</a>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightbox-close" aria-label="Close">&times;</button>
+    <img id="lightbox-image" alt="" />
+    <p id="lightbox-caption"></p>
+  </div>
+
+  <!-- Content: edit this file to change anything on the site -->
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
