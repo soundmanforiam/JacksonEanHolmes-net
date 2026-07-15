@@ -115,7 +115,7 @@ window.SITE_CONTENT = {
   contact: {
     heading: "Let's make something",
     body: "Have a project in mind? Tell me about it.",
-    email: "hello@jacksoneanholmes.com",
+    email: "contact@jacksoneanholmes.com",
     social: [
       { label: "Instagram", href: "https://www.instagram.com/" },
       { label: "Facebook", href: "https://www.facebook.com/" },
