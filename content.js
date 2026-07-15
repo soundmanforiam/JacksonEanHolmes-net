@@ -32,7 +32,7 @@ window.SITE_CONTENT = {
     eyebrow: "Freelance Photographer",
     name: "Jackson Ean Holmes",
     tagline: "Capturing life's moments, one frame at a time.",
-    image: "../assets/img/BannerFace-1024x683.jpg",
+    image: "../assets/img/BannerFace-2048x1366.jpg",
     imageAlt: "Jackson Ean Holmes portrait",
     cta: { label: "View the work", href: "#gallery" },
   },
@@ -43,7 +43,7 @@ window.SITE_CONTENT = {
       "I'm Jackson — a freelance photographer working across portraits, events, and editorial stories. I'm drawn to unscripted moments: the half-second before a smile, the quiet in between the posed shots.",
       "Every project starts with a conversation, not a checklist. I want to understand what a photo needs to do for you before I ever pick up a camera.",
     ],
-    image: "../assets/img/ad4a7a9e98786fd01a32e2bb82ad02c6c0f18f7a.jpg",
+    image: "../assets/img/jackson-at-work.jpg",
     imageAlt: "Jackson Ean Holmes at work",
     highlights: [
       { label: "Based in", detail: "Available for travel" },
